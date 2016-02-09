@@ -1,6 +1,6 @@
 # travisCI_intro
 
-###Basic intro to working with continuous integration tests using travisCI
+######Basic intro to working with continuous integration tests using travisCI
 Some cool stuff is happening, trust me!
 
 
