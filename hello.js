@@ -1,17 +1,8 @@
-//Commented code will not pass
-
-// var http = require('http');
-// http.createServer(function (req, res) {
-//   res.writeHead(200, {'Content-Type': 'text/plain'});
-//   res.end('Hello World!\n') // this will FAIL travis ci lint
-// }).listen(1337, '127.0.0.1');
-// console.log('Server running at http://127.0.0.1:1337');
-
-// Correct code to pass build
+// Test code for Travis CI intro...
 
 var http = require('http');
 http.createServer(function (req, res) {
   res.writeHead(200, {'Content-Type': 'text/plain'});
-  res.end('Hello World!\n'); // build should pass now!
+  res.end('Hello World!\n'); // build will pass or fail based on semicolon
 }).listen(1337, '127.0.0.1');
 console.log('Server running at http://127.0.0.1:1337');
