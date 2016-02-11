@@ -1,9 +1,9 @@
 # travisCI_intro
 
-######Basic intro to working with continuous integration tests using travisCI
-Some cool stuff is happening, trust me!
+######This is an example of a passing build
+This build will pass the code linting check because there are no errors.
 
 
-##This is an image generated based off your build status in travisCI
+##This is an image from travis-ci.org
 
 ![alt tag](https://travis-ci.org/scoobahsteve/travisCI_intro.svg?branch=master)
